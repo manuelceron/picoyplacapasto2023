@@ -6,8 +6,8 @@ const data = {
     '6 y 7' : 'rest_tipo_4', 
     '8 y 9' : 'rest_tipo_5',
     };
-  const restriction = new Restriction(data,2023,"#calendar");
-  restriction.generate_calendar(); // output: Hola, mi nombre es Juan y tengo 30 años.
+  const restriction = new Restriction(data,2024,"#calendar");
+  restriction.generate_calendar();
   function fn_get_restriction(){
     const date = new Date(document.querySelector("#date").value);
     const spam_restriction = document.querySelector("#restriction");
