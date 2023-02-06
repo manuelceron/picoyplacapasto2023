@@ -1,3 +1,9 @@
+const year = 2023;
+const div_calendar = "#calendar";
+/*
+data representa el arreglo de la restricción para la primera semana.
+los campos test_tipo_<n> se utilizan para los estilos  de acuerdo a tipo de restricción.
+*/
 const data = {
     'No hay resricción' : '',
     '0 y 1' : 'rest_tipo_1', 
@@ -6,7 +12,7 @@ const data = {
     '6 y 7' : 'rest_tipo_4', 
     '8 y 9' : 'rest_tipo_5',
     };
-  const restriction = new Restriction(data,2024,"#calendar");
+  const restriction = new Restriction(data,2023,div_calendar);
   restriction.generate_calendar();
   function fn_get_restriction(){
     const date = new Date(document.querySelector("#date").value);
