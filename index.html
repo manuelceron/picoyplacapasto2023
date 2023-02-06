@@ -33,6 +33,12 @@
     myDate = document.querySelector("#date");
     myNewDate= new Date();
     myDate.value = myNewDate.toISOString().split('T')[0];
+    
+    const btn = document.querySelector("#get_restriction");
+    btn.addEventListener('click',function(){
+    fn_get_restriction();
+    });
+
 </script>
 <script src="script.js"></script>
 <script>
