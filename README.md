@@ -1,21 +1,21 @@
 ## Table de contenido
-* [Información General](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
+* [Información General](#información-general)
+* [Tecnologías](#tecnologías)
+* [Configuración](#configuración)
 
 ## Información General
 Este es un proyecto de pasatiempo creado para generar el calendario anual de restricción vehicular para la ciudad de Pasto en el año 2023.
 Autor: Manul Cerón
 Correo: manuel.ceron@sam.net.co
 
-## Technologies
+## Tecnologías
 Proyecto credo con:
 * HTML 5
 * CSS 3
 * Javascript ES 6
 * Bootstrap version: 5.2.2
 
-## Setup
+## Configuración
 Para instalar esta aplicación debe coiar los archivos:
 
 index.html
