@@ -73,7 +73,6 @@ class Restriction {
     }
     header_calendar(){
         let row = document.createElement("tr");
-        //const td11 = document.createElement("td"); td11.textContent = 'G'; row.appendChild(td11);
         const td1 = document.createElement("td"); td1.textContent = 'D'; row.appendChild(td1);
         const td2 = document.createElement("td"); td2.textContent = 'L'; row.appendChild(td2);
         const td3 = document.createElement("td"); td3.textContent = 'M'; row.appendChild(td3);
