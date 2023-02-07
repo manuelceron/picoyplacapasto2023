@@ -13,7 +13,7 @@ Proyecto credo con:
 * HTML 5
 * CSS 3
 * Javascript ES 6
-* Bootstrap version: 5.2.2
+* Bootstrap version: 5.2.3
 
 ## Configuración
 Para instalar esta aplicación debe coiar los archivos:
