@@ -1,3 +1,7 @@
+// Author: Manuel Cerón
+// Email: manuel.ceron@sam.net.co
+// Version: 1
+// Date: 2023-02-06
 class Restriction {
     constructor(data,currentYear,target) {
       this.target = target;
