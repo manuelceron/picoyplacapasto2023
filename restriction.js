@@ -52,21 +52,13 @@ class Restriction {
         let initial_cycle = this.getWeekNumber(date);
         let cycle = initial_cycle;
         if(initial_cycle>number){
-                let cycle_mod = 0; 
-                cycle_mod = cycle%number;
-                while (cycle > number) {
-                    cycle = cycle - number
-                }
-                cycle = cycle_mod;
-                if(cycle == 0) {
-                    cycle = 4;
-                }else{
-                    cycle = cycle - 1;
-                }
-                if(cycle == 5) {
-                    cycle = 0;
-                }
-                cycle = Math.trunc(cycle);
+            cycle = cycle%number;
+            if(cycle == 0) {
+                cycle = 4;
+            }else{
+                cycle = cycle - 1;
+            }
+            cycle = Math.trunc(cycle);
         }else{
             initial_cycle = initial_cycle - 1;
             cycle = Math.trunc(initial_cycle);
