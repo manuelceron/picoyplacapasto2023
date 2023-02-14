@@ -30,4 +30,4 @@ Clonar el repositorio
 ```
 $ git clone https://github.com/manuelceron/picoyplacapasto2023.git
 ```
-No utiliza dependencias de terceros
+
